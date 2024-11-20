@@ -135,83 +135,7 @@
    
 }
 
-     /* Slide1 */
-
-#Slide1 {
-    animation: Slide1Animate 25s step-start 0s infinite ;
-}
-
-@keyframes Slide1Animate {
-    
-    20% {
-        background-image: url("/ATL-Academy-Website/Images/Slidepic1.jpg");
-    }
-    40% {
-        background-image: url("/ATL-Academy-Website/Images/Slidepic2SpeciaslOccation.png");
-    }
-    60% {
-        background-image: url("/ATL-Academy-Website/Images/Slidepic3.jpg");
-    }
-    80% {
-        background-image: url("/ATL-Academy-Website/Images/Slidepic4.jpg");
-    }
-    100% {
-        background-image: url("/ATL-Academy-Website/Images/Slidepic5.jpg");
-    }
-
-}
-
-     /* Slide2 */
-
-#Slide2 {
-    animation: Slide2Animate 25s step-start 0s infinite;
-}
-
-@keyframes Slide2Animate {
-    
-    20% {
-        background-image: url("/ATL-Academy-Website/Images/Slidepic2SpeciaslOccation.png");
-    }
-    40% {
-        background-image: url("/ATL-Academy-Website/Images/Slidepic3.jpg");
-    }
-    60% {
-        background-image: url("/ATL-Academy-Website/Images/Slidepic4.jpg");
-    }
-    80% {
-        background-image: url("/ATL-Academy-Website/Images/Slidepic5.jpg");
-    }
-    100% {
-        background-image: url("/ATL-Academy-Website/Images/Slidepic1.jpg");
-    }
-
-}
-
-     /* Slide3 */
-
-#Slide3 {
-    animation: Slide3Animate 25s step-start 0s infinite;
-}
-@keyframes Slide3Animate {
-    
-    20% {
-        background-image: url("/ATL-Academy-Website/Images/Slidepic3.jpg");
-    }
-    40% {
-        background-image: url("/ATL-Academy-Website/Images/Slidepic4.jpg");
-    }
-    60% {
-        background-image: url("/ATL-Academy-Website/Images/Slidepic5.jpg");
-    }
-    80% {
-        background-image: url("/ATL-Academy-Website/Images/Slidepic1.jpg");
-    }
-    100% {
-        background-image: url("/ATL-Academy-Website/Images/Slidepic2SpeciaslOccation.png");
-    }
-
-}
-
+ 
      /* YouTube Videos */
 
 .YouTubeVideos {
@@ -219,7 +143,7 @@
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: center; 
 }
 
 @media (max-width: 78.12rem) {
