@@ -77,14 +77,7 @@
     align-items: center;
 }
 
-.HeadButtons {
-    height: 5rem;
-    width: 95%;
-    background-color: #8390FA;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
+
 
 .LowerHeadButtons {
     background-color:#1D2F6F;
@@ -113,30 +106,55 @@
 
      /* Banner Slide */
 
-.BannerSliding{
-    height: 20rem;
-    background-color: #F9E9EC;
-    padding: 0.5rem 0.1rem 1rem;
-    display: flex;
+.Sileddiv {
+    display:flex;
+}     
+.carousel {
+        position: relative;
+        width: 80%;
+        max-width: 600px;
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
     
+.carousel-inner {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
 }
-
-.BannerSlide {
-    border: 0.15rem solid #1D2F6F;
-    width: 100%;
-    background-size: cover;
-    transition: active 2s ease-in ;
+    
+.carousel-inner img {
+        width: 100%;
+        flex-shrink: 0;
 }
-
-.BannerSlide:active {
-    scale: 1.2;
-    border: none;
-    border-radius: 2rem;
-   
+    
+.carousel button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        z-index: 1000;
+        font-size: 18px;
+        border-radius: 50%;
 }
-
- 
-     /* YouTube Videos */
+    
+.carousel button.prev {
+        left: 10px;
+}
+    
+.carousel button.next {
+        right: 10px;
+    }
+    
+.carousel button:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+  /* YouTube Videos */
 
 .YouTubeVideos {
     height:33rem;
