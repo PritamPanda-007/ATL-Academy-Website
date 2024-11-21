@@ -118,14 +118,29 @@
     font-size: x-large;
 }
 
-.button {
-    align-self: center;
-    color: #ffffff;
+.Course-button {
+    align-self: flex-end;
 }
-#EnrollButton {
-   
+.EnrollButton {
+    width: 6.5rem;
+    height: 3.5rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #ffffff;
+    padding: 4px;
+    margin: 0px 7px 7px 0px;
+    border: 0.20rem solid #1D2F6F;
     border-radius: 5rem;
-    background-color: rgb(45, 165, 45);
+    background-color: #49a078;
+    transition: box-shadow 0.35s ease;
+
+}
+
+.EnrollButton:hover {
+    border: 0.20rem solid #FAC748;
+    font-size: 1.1rem;
+    box-shadow: 3px 3px 3px #000000;
+
 }
 
 /* Course Name Div Design */
