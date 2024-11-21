@@ -1,5 +1,5 @@
 * {
-    color: #ffffff;
+    /* color: #ffffff; */
     margin: 0;
 }
 .headPanel {
@@ -33,6 +33,7 @@
 }
 .headButton {
     background-color:#1D2F6F;
+    color: #ffffff;
     border: 0.20rem solid #ffffff;
     font-size: 1rem;
     border-radius: 1rem;
@@ -106,8 +107,26 @@
     border-left: none;
     padding: 1rem 1rem 1rem 5rem;
     border-top-right-radius: 5rem;
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
 }
 
+.courseDescribtion {
+    height: 15rem;
+    width: 32rem;
+    font-size: x-large;
+}
+
+.button {
+    align-self: center;
+    color: #ffffff;
+}
+#EnrollButton {
+   
+    border-radius: 5rem;
+    background-color: rgb(45, 165, 45);
+}
 
 /* Course Name Div Design */
 
