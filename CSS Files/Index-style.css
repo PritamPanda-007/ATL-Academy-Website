@@ -70,8 +70,9 @@
 .LowerHead {
     height: 5rem;
     background-color: #8390FA;
-    border: 0.1rem dashed #031283de;
+    border: 0.1rem dotted #031283de;
     border-top: none; 
+    border-bottom: none;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
