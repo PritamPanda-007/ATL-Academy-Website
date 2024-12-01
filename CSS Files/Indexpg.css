@@ -169,7 +169,59 @@
 .carousel button:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
-    
+/* About academy */
+.Academy-info {
+    width: 100%;
+    height: auto;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Faculty Introduction */
+
+.Faculty-info {
+    height: 25rem;
+    max-width: 85%;
+    border: 3px solid black;
+    border-radius: 0 5rem 0 5rem; 
+    padding: 2.5rem;
+    display: flex;
+}
+/* Message from Teacher */
+
+.msg-teacher {
+    width: auto;
+    height: 30%;
+    padding: 1.25rem;
+    margin-right: 2.5rem;
+    border: 3px solid #000000;
+    border-radius: 2.5rem;
+    align-self: self-end;
+    display: flex;
+}
+.msg-teacher i {
+    font-size: 3rem;
+}
+
+.msg-teacher p {
+    color: #000000;
+    font-size: 2rem;
+    align-self: center;
+}
+.fa-solid fa-quote-right {
+    align-self: flex-end;
+}
+/* Picture of teacher  */
+.Teacher-img {
+    height: 100%;
+    border-radius: 2.5rem;
+    background-image: url("/ATL-Academy-Website/Images/Teacher\ image.jpg");
+    background-size: cover;
+    aspect-ratio: 1/1;
+
+}
   /* YouTube Videos */
 
 .YouTubeVideos {
