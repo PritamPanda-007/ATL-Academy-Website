@@ -1,5 +1,4 @@
 * {
-    /* color: #ffffff; */
     margin: 0;
 }
 .headPanel {
@@ -137,7 +136,7 @@
 }
 
 .EnrollButton:hover {
-    border: 0.20rem solid #FAC748;
+    border: 0.20rem solid #171c6b;
     font-size: 1.1rem;
     box-shadow: 3px 3px 3px #000000;
 
